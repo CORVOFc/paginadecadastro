@@ -1,0 +1,26 @@
+body{
+    
+    background-color: #585656;
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+.principal{
+    width: 500px;
+    border: 2px solid #4e0404;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1{
+    color: #ffffff;
+}
+.principal h1{
+    font-size: 2em;
+}
+h2{
+    text-align: center;
+    color: #ffffff; 
+}
+label,input{
+    color: white;
+}
