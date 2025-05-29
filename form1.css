@@ -1,0 +1,36 @@
+
+body {
+    background-color: #4B0082; /* Indigo - O roxo escuro do seu background */
+    display: flex;
+    flex-direction: column; /* Coloca os itens em coluna para que fiquem um abaixo do outro */
+    justify-content: center; /* Centraliza verticalmente o conteúdo na tela */
+    align-items: center; /* Centraliza horizontalmente o conteúdo na tela */
+    height: 100vh; /* Faz com que o body ocupe 100% da altura da tela */
+    margin: 0; /* Remove a margem padrão do body */
+    font-family: Arial, sans-serif; /* Uma fonte mais comum para o texto geral */
+    color: white; /* Cor do texto padrão para branco */
+    text-align: center; /* Centraliza o texto dentro dos elementos */
+}
+
+h1 {
+    color: white; /* O título */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Mantém a fonte do título */
+    margin-bottom: 15px; /* Espaço abaixo do título */
+}
+
+p {
+    margin-bottom: 10px; 
+    font-size: 1.1em; 
+}
+
+p a {
+    color: #8A2BE2; 
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+    font-weight: bold; /* Deixa o link em negrito */
+    transition: color 0.3s ease; /* Adiciona uma transição suave para o efeito hover */
+}
+
+p a:hover {
+    color: #AD83DA; /* Uma tonalidade mais clara de roxo ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
